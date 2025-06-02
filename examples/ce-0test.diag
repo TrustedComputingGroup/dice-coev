@@ -1,0 +1,29 @@
+/ tagged-concise-evidence / 571({
+  / ce.ev-triples / 0 : {
+    / evidence claims / 0 : [
+      [
+        / environment-map / {
+          / comid.class / 0 : {
+            / comid.class-id / 0 :
+              / tagged-oid-type / 111(h'0607517B010F046302'), / 2.1.123.1.15.4.99.2 /
+            / comid.vendor / 1 : "fpgadesignsrus.example"
+          }
+        },
+        [
+          / measurement-map / {
+            / comid.mval / 1 : {
+              / raw-int /
+                / comid.raw-value / 15 : 0
+            }
+          },
+          / measurement-map / {
+            / comid.mval / 1 : {
+              / raw-int /
+                / comid.raw-value / 15 : 564([ -100, 10 ])
+            }
+          }
+        ]
+      ]
+    ]
+  }
+})
