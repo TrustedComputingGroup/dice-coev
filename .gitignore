@@ -1,3 +1,14 @@
 ./cddl/*-autogen.cddl
 draft-ietf-rats-corim
 *.cddl.bak
+*.pretty
+*.cbor
+eat-autogen.cddl
+ce-autogen.cddl
+comidx-autogen.cddl
+cose-autogen.cddl
+spdm-autogen.cddl
+/imports
+/exports
+/imports
+.mailmap
