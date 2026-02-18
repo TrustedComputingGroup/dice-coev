@@ -9,6 +9,7 @@ concise-evidence-map = {
   * $$concise-evidence-map-extension
 }
 $evidence-id-type-choice /= tagged-uuid-type
+$evidence-id-type-choice /= tagged-oid-type
 ; additional evidence identifier types may be added here
 
 ev-triples-map = non-empty< {
