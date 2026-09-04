@@ -21,7 +21,8 @@
             / alg / 1, / sha256 /
             / value / h'44aa336af4cb14a879432e53dd6571c7fa9bccafb75f488259262d6ea3a4d91b'
           ])
-        ]
+        ],
+        / mkey tagged-oid-type / 111(h'0607517B010F6201') / 2.1.123.1.15.98.1 /
       ]
     ],
         / ce.attest-key-triples / 5 : [
