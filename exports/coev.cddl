@@ -24,6 +24,7 @@ concise-evidence-map = {
   * $$concise-evidence-map-extension
 }
 $evidence-id-type-choice /= tagged-uuid-type
+$evidence-id-type-choice /= tagged-oid-type
 
 ev-triples-map = non-empty< {
   ? &(ce.evidence-triples: 0) => [ + evidence-triple-record ]
@@ -43,11 +44,13 @@ evidence-triple-record = [
 ev-identity-triple-record = [
   environment-map
   [ + $crypto-key-type-choice ]
+  ? mkey: $measured-element-type-choice
 ]
 
 ev-attest-key-triple-record = [
   environment-map
   [ + $crypto-key-type-choice ]
+  ? mkey: $measured-element-type-choice
 ]
 
 ev-dependency-triple-record = [
