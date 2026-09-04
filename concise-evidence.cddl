@@ -30,11 +30,13 @@ evidence-triple-record = [
 ev-identity-triple-record = [
   environment-map
   [ + $crypto-key-type-choice ]
+  ? mkey: $measured-element-type-choice
 ]
 
 ev-attest-key-triple-record = [
   environment-map
   [ + $crypto-key-type-choice ]
+  ? mkey: $measured-element-type-choice
 ]
 
 ev-dependency-triple-record = [
