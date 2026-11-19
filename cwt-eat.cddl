@@ -2,7 +2,7 @@
 cwt-eat = {
   ; CWT claims are registered at https://www.iana.org/assignments/cwt/cwt.xhtml
 
-  ; EAT claims are defined in https://datatracker.ietf.org/doc/draft-ietf-rats-eat/ 
+  ; EAT claims are defined in https://www.rfc-editor.org/rfc/rfc9711.html 
   
   ; An EAT profile is either a URL or an OID. 
   ? &(eat-profile : 265 ) => ~oid ; "2.16.840.1.113741.1.16.1" - note: `~` strips CBOR tag #6.111(oid) from `oid`
